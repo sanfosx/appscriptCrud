@@ -1,5 +1,5 @@
 // IMPORTANTE: Pega aquí la URL de tu aplicación web de Apps Script.
-const SCRIPT_URL = 'URL_DE_TU_APPS_SCRIPT_AQUI';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxdfyNOGfQT87Wa_eB1GzyWPVRz4L093jZ7tld99Tc4gLYu7L4MMhtFEdfpNAjYN_eK/exec';
 
 const form = document.getElementById('user-form');
 const tableBody = document.querySelector('#user-table tbody');
