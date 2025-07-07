@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD con Google Sheets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gestión de Usuarios</h1>
+
+    <div class="form-container">
+        <h2>Añadir / Editar Usuario</h2>
+        <form id="user-form">
+            <input type="hidden" id="userId">
+            <input type="text" id="userName" placeholder="Nombre" required>
+            <input type="email" id="userEmail" placeholder="Email" required>
+            <button type="submit">Guardar</button>
+            <button type="button" id="cancel-edit">Cancelar</button>
+        </form>
+    </div>
+
+    <div class="table-container">
+        <h2>Lista de Usuarios</h2>
+        <table id="user-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
