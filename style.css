@@ -1,0 +1,8 @@
+body { font-family: sans-serif; margin: 2em; }
+.form-container, .table-container { margin-bottom: 2em; }
+input, button { padding: 8px; margin-right: 5px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background-color: #f2f2f2; }
+.actions button { padding: 5px 10px; cursor: pointer; }
+#cancel-edit { display: none; }
